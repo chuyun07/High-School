@@ -1,0 +1,10 @@
+Salary = int(input("Enter Salary: "))
+Rent = int(input("Enter Rent: "))
+Phone = int(input("Enter Phone Bill: "))
+Grocery = int(input("Enter Grocery: "))
+print("Total spent: ")
+print(Rent+Phone+Grocery)
+Spent = (Rent+Phone+Grocery)
+Saving = Salary-Spent
+print("Total Savings: ")
+print(Saving)
